@@ -143,9 +143,13 @@ Error message and password prompt
 
 <li>$:/config/AutoSave</li>
 
+<li>$:/config/DefaultSidebarTab</li>
+
 <li>$:/config/DownloadSaver/AutoSave</li>
 
 <li>$:/config/markdown/dialect</li>
+
+<li>$:/config/Navigation/UpdateAddressBar</li>
 
 <li>$:/config/NewJournal/Title</li>
 
@@ -156,6 +160,8 @@ Error message and password prompt
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager</li>
 
 <li>$:/config/Toolbar/ButtonClass</li>
+
+<li>$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/clone</li>
 
 <li>$:/core</li>
 
@@ -202,6 +208,8 @@ Error message and password prompt
 <li>$:/state/tab-2065006209</li>
 
 <li>$:/state/tab/sidebar--595412856</li>
+
+<li>$:/state/tabs/controlpanel/toolbars-1345989671</li>
 
 <li>$:/status/UserName</li>
 
@@ -436,11 +444,17 @@ Error message and password prompt
 <div created="20200404083634272" creator="tigerxp" modified="20200404083634272" modifier="tigerxp" title="$:/config/AutoSave">
 <pre>no</pre>
 </div>
+<div created="20200404191516572" creator="tigerxp" modified="20200404191516572" modifier="tigerxp" title="$:/config/DefaultSidebarTab">
+<pre>$:/core/ui/SideBar/Recent</pre>
+</div>
 <div created="20200404074702560" creator="tigerxp" modified="20200404075051452" modifier="tigerxp" title="$:/config/DownloadSaver/AutoSave">
 <pre>no</pre>
 </div>
 <div created="20200404084014933" creator="tigerxp" modified="20200404084221944" modifier="tigerxp" title="$:/config/markdown/dialect">
 <pre>Maruku</pre>
+</div>
+<div created="20200404191533359" creator="tigerxp" modified="20200404191533359" modifier="tigerxp" title="$:/config/Navigation/UpdateAddressBar">
+<pre>permalink</pre>
 </div>
 <div created="20200404091343043" creator="tigerxp" modified="20200404092337043" modifier="tigerxp" title="$:/config/NewJournal/Title">
 <pre>YYYY-0MM-0DD</pre>
@@ -456,6 +470,9 @@ Error message and password prompt
 </div>
 <div created="20200404093427219" creator="tigerxp" modified="20200404093459560" modifier="tigerxp" title="$:/config/Toolbar/ButtonClass">
 <pre>tc-btn-invisible</pre>
+</div>
+<div created="20200404191446845" creator="tigerxp" modified="20200404191446845" modifier="tigerxp" title="$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/clone">
+<pre>show</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.21">
 <pre>{
@@ -9870,11 +9887,11 @@ Error message and password prompt
 <div created="20200404065926264" creator="tigerxp" modified="20200404074633590" modifier="tigerxp" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20200404065730995" creator="tigerxp" modified="20200404092421364" modifier="tigerxp" title="$:/state/tab--1963855381">
-<pre>$:/core/ui/ControlPanel/Palette</pre>
+<div created="20200404065730995" creator="tigerxp" modified="20200404191822229" modifier="tigerxp" title="$:/state/tab--1963855381">
+<pre>$:/themes/tiddlywiki/vanilla/themetweaks</pre>
 </div>
-<div created="20200404065041094" creator="tigerxp" modified="20200404170137254" modifier="tigerxp" title="$:/state/tab--2112689675">
-<pre>$:/core/ui/ControlPanel/Basics</pre>
+<div created="20200404065041094" creator="tigerxp" modified="20200404191456008" modifier="tigerxp" title="$:/state/tab--2112689675">
+<pre>$:/core/ui/ControlPanel/Advanced</pre>
 </div>
 <div created="20200404081151204" creator="tigerxp" modified="20200404081152594" modifier="tigerxp" title="$:/state/tab--86143343">
 <pre>$:/core/ui/ControlPanel/Plugins/Installed/Plugins</pre>
@@ -9885,8 +9902,8 @@ Error message and password prompt
 <div created="20200404081220570" creator="tigerxp" modified="20200404081248366" modifier="tigerxp" title="$:/state/tab-1342078386">
 <pre>$:/core/ui/ControlPanel/Plugins/Add/Plugins</pre>
 </div>
-<div created="20200404064553305" creator="tigerxp" modified="20200404094253994" modifier="tigerxp" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Info</pre>
+<div created="20200404064553305" creator="tigerxp" modified="20200404191752667" modifier="tigerxp" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
 <div created="20200404064557621" creator="tigerxp" modified="20200404091007590" modifier="tigerxp" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
@@ -9894,10 +9911,13 @@ Error message and password prompt
 <div created="20200404065555757" creator="tigerxp" modified="20200404094316561" modifier="tigerxp" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/Tools</pre>
 </div>
+<div created="20200404191426474" creator="tigerxp" modified="20200404191433065" modifier="tigerxp" title="$:/state/tabs/controlpanel/toolbars-1345989671">
+<pre>$:/core/ui/ControlPanel/Toolbars/ViewToolbar</pre>
+</div>
 <div created="20200404065024788" creator="t" modified="20200404065025819" modifier="tigerx" title="$:/status/UserName">
 <pre>tigerxp</pre>
 </div>
-<div created="20200404170133846" creator="tigerxp" list="Start" modified="20200404170133846" modifier="tigerxp" title="$:/StoryList">
+<div created="20200404191344488" creator="tigerxp" list="Start [[Create ISO Image of the CD/DVD]]" modified="20200404191653111" modifier="tigerxp" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200404092540844" creator="tigerxp" modified="20200404093135347" modifier="tigerxp" title="$:/temp/advancedsearch">
@@ -10841,10 +10861,10 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20200404074906806" creator="tigerxp" modified="20200404074906806" modifier="tigerxp" title="$:/themes/tiddlywiki/vanilla/options/codewrapping">
 <pre>pre</pre>
 </div>
-<div created="20200404074832263" creator="tigerxp" modified="20200404074849424" modifier="tigerxp" title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
-<pre>fixed-fluid</pre>
+<div created="20200404074832263" creator="tigerxp" modified="20200404191826406" modifier="tigerxp" title="$:/themes/tiddlywiki/vanilla/options/sidebarlayout">
+<pre>fluid-fixed</pre>
 </div>
-<div created="20200404083433543" creator="tigerxp" modified="20200404084542253" modifier="tigerxp" tags="howto" title="Create ISO Image of the CD/DVD" type="text/x-markdown">
+<div created="20200404083433543" creator="tigerxp" modified="20200404191636926" modifier="tigerxp" tags="howto" title="Create ISO Image of the CD/DVD" type="text/x-markdown">
 <pre>If the disk was auto-mounted, **unmount** it first.
 
 Create the image using `dd`:
