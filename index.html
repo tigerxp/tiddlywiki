@@ -407,6 +407,8 @@ Error message and password prompt
 
 <li>Markdown test</li>
 
+<li>Securely erase HDD Data</li>
+
 <li>Start</li>
 
 </ul>
@@ -9868,7 +9870,7 @@ Error message and password prompt
 <div created="20200404065024788" creator="t" modified="20200404065025819" modifier="tigerx" title="$:/status/UserName">
 <pre>tigerxp</pre>
 </div>
-<div list="Start" title="$:/StoryList">
+<div list="[[Securely erase HDD Data]] Start" title="$:/StoryList">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -10823,6 +10825,15 @@ dd if=/dev/scd0 of=cd.iso # if cdrom is scsi
 </div>
 <div created="20200404080952592" creator="tigerxp" modified="20200404083140989" modifier="tigerxp" tags="" title="Markdown test" type="text/x-markdown">
 <pre>Some *markdown*</pre>
+</div>
+<div created="20200404090030501" creator="tigerxp" modified="20200404090150340" modifier="tigerxp" tags="linux howto" title="Securely erase HDD Data" type="text/x-markdown">
+<pre>```shred -vfz -n 100 /dev/hda
+```
+
+Erases the whole hard disk `/dev/hda`.
+
+`-n` specifies 100 passes by overwriting the entire hard disk with (`-z`) zeros. And shred program (`-f`) forces the write by changing the permissions wherever necessary.
+</pre>
 </div>
 <div created="20200404084555450" creator="tigerxp" modified="20200404085858559" modifier="tigerxp" tags="" title="Start">
 <pre>How-Tos:
