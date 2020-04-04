@@ -147,9 +147,15 @@ Error message and password prompt
 
 <li>$:/config/markdown/dialect</li>
 
+<li>$:/config/NewJournal/Title</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home</li>
 
+<li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal</li>
+
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager</li>
+
+<li>$:/config/Toolbar/ButtonClass</li>
 
 <li>$:/core</li>
 
@@ -170,6 +176,8 @@ Error message and password prompt
 <li>$:/SiteTitle</li>
 
 <li>$:/state/plugin-info--896887961-$:/core</li>
+
+<li>$:/state/plugin-info-334910430-$:/core---1812962263</li>
 
 <li>$:/state/plugin-info-896098052-$:/plugins/tiddlywiki/markdown--436478829</li>
 
@@ -196,6 +204,8 @@ Error message and password prompt
 <li>$:/status/UserName</li>
 
 <li>$:/StoryList</li>
+
+<li>$:/temp/advancedsearch</li>
 
 <li>$:/temp/info-plugin</li>
 
@@ -391,6 +401,8 @@ Error message and password prompt
 
 <li>$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary</li>
 
+<li>$:/temp/search</li>
+
 <li>$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.21/index.html</li>
 
 <li>$:/theme</li>
@@ -405,13 +417,9 @@ Error message and password prompt
 
 <li>Create ISO Image of the CD/DVD</li>
 
-<li>Markdown test</li>
-
 <li>Securely erase HDD Data</li>
 
 <li>Start</li>
-
-<li>Test from mobile</li>
 
 </ul>
 </p>
@@ -432,11 +440,20 @@ Error message and password prompt
 <div created="20200404084014933" creator="tigerxp" modified="20200404084221944" modifier="tigerxp" title="$:/config/markdown/dialect">
 <pre>Maruku</pre>
 </div>
+<div created="20200404091343043" creator="tigerxp" modified="20200404092337043" modifier="tigerxp" title="$:/config/NewJournal/Title">
+<pre>YYYY-0MM-0DD</pre>
+</div>
 <div created="20200404065618228" creator="tigerxp" modified="20200404065618228" modifier="tigerxp" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/home">
 <pre>show</pre>
 </div>
+<div created="20200404092849607" creator="tigerxp" modified="20200404094321566" modifier="tigerxp" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/new-journal">
+<pre>hide</pre>
+</div>
 <div created="20200404084956670" creator="tigerxp" modified="20200404084956670" modifier="tigerxp" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/tag-manager">
 <pre>show</pre>
+</div>
+<div created="20200404093427219" creator="tigerxp" modified="20200404093459560" modifier="tigerxp" title="$:/config/Toolbar/ButtonClass">
+<pre>tc-btn-invisible</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.21">
 <pre>{
@@ -9836,8 +9853,11 @@ Error message and password prompt
 <div created="20200404081154518" creator="tigerxp" modified="20200404081157562" modifier="tigerxp" title="$:/state/plugin-info--896887961-$:/core">
 <pre>no</pre>
 </div>
-<div created="20200404081424324" creator="tigerxp" modified="20200404084145695" modifier="tigerxp" title="$:/state/plugin-info-896098052-$:/plugins/tiddlywiki/markdown--436478829">
-<pre>usage</pre>
+<div created="20200404092503705" creator="tigerxp" modified="20200404093216079" modifier="tigerxp" title="$:/state/plugin-info-334910430-$:/core---1812962263">
+<pre>contents</pre>
+</div>
+<div created="20200404081424324" creator="tigerxp" modified="20200404092605598" modifier="tigerxp" title="$:/state/plugin-info-896098052-$:/plugins/tiddlywiki/markdown--436478829">
+<pre>readme</pre>
 </div>
 <div created="20200404083717889" creator="tigerxp" modified="20200404084239259" modifier="tigerxp" title="$:/state/showeditpreview">
 <pre>no</pre>
@@ -9845,35 +9865,38 @@ Error message and password prompt
 <div created="20200404065926264" creator="tigerxp" modified="20200404074633590" modifier="tigerxp" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
-<div created="20200404065730995" creator="tigerxp" modified="20200404065737133" modifier="tigerxp" title="$:/state/tab--1963855381">
-<pre>$:/themes/tiddlywiki/vanilla/themetweaks</pre>
+<div created="20200404065730995" creator="tigerxp" modified="20200404092421364" modifier="tigerxp" title="$:/state/tab--1963855381">
+<pre>$:/core/ui/ControlPanel/Palette</pre>
 </div>
-<div created="20200404065041094" creator="tigerxp" modified="20200404075021806" modifier="tigerxp" title="$:/state/tab--2112689675">
-<pre>$:/core/ui/ControlPanel/Basics</pre>
+<div created="20200404065041094" creator="tigerxp" modified="20200404093344140" modifier="tigerxp" title="$:/state/tab--2112689675">
+<pre>$:/core/ui/ControlPanel/Advanced</pre>
 </div>
 <div created="20200404081151204" creator="tigerxp" modified="20200404081152594" modifier="tigerxp" title="$:/state/tab--86143343">
 <pre>$:/core/ui/ControlPanel/Plugins/Installed/Plugins</pre>
 </div>
-<div created="20200404065334433" creator="tigerxp" modified="20200404074825083" modifier="tigerxp" title="$:/state/tab--959111941">
+<div created="20200404065334433" creator="tigerxp" modified="20200404094302327" modifier="tigerxp" title="$:/state/tab--959111941">
 <pre>$:/core/ui/ControlPanel/EditorTypes</pre>
 </div>
 <div created="20200404081220570" creator="tigerxp" modified="20200404081248366" modifier="tigerxp" title="$:/state/tab-1342078386">
 <pre>$:/core/ui/ControlPanel/Plugins/Add/Plugins</pre>
 </div>
-<div created="20200404064553305" creator="tigerxp" modified="20200404091003659" modifier="tigerxp" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Saving</pre>
+<div created="20200404064553305" creator="tigerxp" modified="20200404094253994" modifier="tigerxp" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
 <div created="20200404064557621" creator="tigerxp" modified="20200404091007590" modifier="tigerxp" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
-<div created="20200404065555757" creator="tigerxp" modified="20200404085426949" modifier="tigerxp" title="$:/state/tab/sidebar--595412856">
-<pre>$:/core/ui/SideBar/Recent</pre>
+<div created="20200404065555757" creator="tigerxp" modified="20200404094316561" modifier="tigerxp" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Tools</pre>
 </div>
 <div created="20200404065024788" creator="t" modified="20200404065025819" modifier="tigerx" title="$:/status/UserName">
 <pre>tigerxp</pre>
 </div>
-<div created="20200404091000688" creator="tigerxp" list="[[Test from mobile]] Start" modified="20200404091000688" modifier="tigerxp" title="$:/StoryList">
+<div created="20200404092633256" creator="tigerxp" list="Start" modified="20200404093506552" modifier="tigerxp" title="$:/StoryList">
 <pre></pre>
+</div>
+<div created="20200404092540844" creator="tigerxp" modified="20200404093135347" modifier="tigerxp" title="$:/temp/advancedsearch">
+<pre>ViewWidget</pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
 <pre>{
@@ -9920,11 +9943,11 @@ Error message and password prompt
         },
         &quot;$:/info/browser/screen/width&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/width&quot;,
-            &quot;text&quot;: &quot;360&quot;
+            &quot;text&quot;: &quot;1920&quot;
         },
         &quot;$:/info/browser/screen/height&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/screen/height&quot;,
-            &quot;text&quot;: &quot;720&quot;
+            &quot;text&quot;: &quot;1080&quot;
         },
         &quot;$:/info/browser/language&quot;: {
             &quot;title&quot;: &quot;$:/info/browser/language&quot;,
@@ -10692,6 +10715,9 @@ This plugin also requires the JSZip plugin ([[$:/plugins/tiddlywiki/jszip]]) to 
 <div created="20200404081245791" creator="tigerxp" modified="20200404081247022" modifier="tigerxp" title="$:/temp/RemoteAssetSearch/$:/config/OfficialPluginLibrary">
 <pre>markd</pre>
 </div>
+<div created="20200404092533066" creator="tigerxp" modified="20200404093135348" modifier="tigerxp" title="$:/temp/search">
+<pre></pre>
+</div>
 <div created="20200404081218496" creator="tigerxp" modified="20200404081218496" modifier="tigerxp" tags="$:/tags/ServerConnection" title="$:/temp/ServerConnection/https://tiddlywiki.com/library/v5.1.21/index.html" url="https://tiddlywiki.com/library/v5.1.21/index.html">
 <pre>loaded</pre>
 </div>
@@ -10825,9 +10851,6 @@ dd if=/dev/scd0 of=cd.iso # if cdrom is scsi
 ```
 </pre>
 </div>
-<div created="20200404080952592" creator="tigerxp" modified="20200404083140989" modifier="tigerxp" tags="" title="Markdown test" type="text/x-markdown">
-<pre>Some *markdown*</pre>
-</div>
 <div created="20200404090030501" creator="tigerxp" modified="20200404090150340" modifier="tigerxp" tags="linux howto" title="Securely erase HDD Data" type="text/x-markdown">
 <pre>```shred -vfz -n 100 /dev/hda
 ```
@@ -10841,9 +10864,6 @@ Erases the whole hard disk `/dev/hda`.
 <pre>How-Tos:
 &lt;&lt;list-links filter:&quot;[tag[howto]]&quot;&gt;&gt;
 </pre>
-</div>
-<div created="20200404091127093" creator="tigerxp" modified="20200404091145382" modifier="tigerxp" tags="" title="Test from mobile" type="text/x-markdown">
-<pre>Test</pre>
 </div>
 
 </div>
